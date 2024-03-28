@@ -21631,11 +21631,21 @@ h4.margin {
 		margin-top: 0;
 		position: static;
 	}
+	a.logo img {
+		display: inline-block;
+		max-width: 80%;
+		padding: 15px 0;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.page_footer.bordered-footer .footer_logo img {
 		left: 34%;
+	}
+	a.logo img {
+		display: inline-block;
+		max-width: 80%;
+		padding: 15px 0;
 	}
 }
 
