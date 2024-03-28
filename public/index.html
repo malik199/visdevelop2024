@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>VisDevelop - App Development & Video Marketing</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="btn">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls p-normal">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div>
+	<!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<!--topline section visible only on small screens|-->
+			<div class="header_absolute s-pb-30">
+				<header class="page_header ds">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-xl-2 col-lg-3 col-11">
+								<a href="./" class="logo text-center">
+									<img src="images/images-new/VisDevelopNew.svg" alt="">
+								</a>
+							</div>
+							<div class="col-xl-8 col-lg-6 col-1 text-sm-center">
+								<!-- main nav start -->
+								<nav class="top-nav">
+									<ul class="nav sf-menu">
+										<li class="active">
+											<a href="index.html">Home</a>
+											<!-- <ul>
+												<li>
+													<a href="index.html">Home 1</a>
+												</li>
+												<li>
+													<a href="index-2.html">Home 2</a>
+												</li>
+												<li>
+													<a href="index_static.html">Static Intro</a>
+												</li>
+												<li>
+													<a href="index_singlepage.html">Single Page</a>
+												</li>
+											</ul> -->
+										</li>
+										<li>
+											<a href="about.html">About</a>
+										</li>
+										<!-- <li>
+											<a href="services1.html">Make my App</a>
+											 <ul>
+												<li>
+													<a href="services1.html">Services 1</a>
+												</li>
+												<li>
+													<a href="services2.html">Services 2</a>
+												</li>
+												<li>
+													<a href="services3.html">Services 3</a>
+												</li>
+												<li>
+													<a href="services4.html">Services 4</a>
+												</li>
+												<li>
+													<a href="services5.html">Services 5</a>
+												</li>
+												<li>
+													<a href="service-single1.html">Single Service</a>
+													<ul>
+														<li>
+															<a href="service-single1.html">Single Service 1</a>
+														</li>
+														<li>
+															<a href="service-single2.html">Single Service 2</a>
+														</li>
+														<li>
+															<a href="service-single3.html">Single Service 3</a>
+														</li>
+														<li>
+															<a href="service-single4.html">Single Service 4</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">Make my Video</a>
+											< !-- eof mega menu -- >
+										</li> -->
+										<li>
+											<a href="contact.html">Contact</a>
+											<!-- <ul>
+												<li>
+													<a href="contact.html">Contact 1</a>
+												</li>
+												<li>
+													<a href="contact2.html">Contact 2</a>
+												</li>
+												<li>
+													<a href="contact3.html">Contact 3</a>
+												</li>
+												<li>
+													<a href="contact4.html">Contact 4</a>
+												</li>
+											</ul> -->
+										</li>
+										<!-- eof contacts -->
+
+								
+										<!-- eof features -->
+									</ul>
+								</nav>
+								<!-- eof main nav -->
+							</div>
+								<div class="col-xl-2 col-lg-3 text-lg-left text-xl-right d-none d-lg-block">
+								<div class="header_phone">
+									<h6>
+										<span>(571)</span> 498-7565
+								</div>
+							</div>
+						<!-- <div class="search-box">
+								<input type="text" name="search" placeholder="search keyword" class="search-text">
+								<a href="#" class="search-btn">
+									<i class="fa fa-search"></i>
+								</a>
+							</div> -->
+						</div>
+					</div>
+					<!-- header toggler -->
+					<span class="toggle_menu">
+						<span></span>
+					</span>
+				</header>
+			</div>
+			<span class="toggle_menu_side header-slide">
+				<span></span>
+			</span>
+
+			<section class="page_slider main_slider">
+				<div class="flexslider" data-nav="true" data-dots="false">
+					<ul class="slides">
+						<li class="ds text-center slide1">
+							<span class="flexslider-overlay"></span>
+							<span class="embed-responsive embed-responsive-16by9">
+								<iframe src="https://www.youtube.com/embed/UBufeh1yv2c?feature=oembed&;showinfo=0&;autoplay=1&;controls=0&;mute=1&;loop=1&;playlist=UBufeh1yv2c" allowfullscreen=""></iframe>
+							</span>
+							<div class="container">
+								<div class="row">
+									<div class="col-12 itro_slider">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												<div class="intro_layer" data-animation="fadeIn">
+													<p class="text-uppercase intro_after_featured_word">At VisDevelop</p>
+												</div>
+
+												<div class="intro_layer" data-animation="slideRight">
+													<h2 class="text-uppercase intro_featured_word">
+														Our Focus
+													</h2>
+												</div>
+												<div class="intro_layer" data-animation="fadeIn">
+													<h3 class="intro_before_featured_word">
+														<span class="color-main2">App Development</span> &
+														<span class="color-main3">Video Marketing</span>
+				
+													</h3>
+												</div>
+												<div class="intro_layer page-bottom" data-animation="expandUp">
+													<a class="btn btn-maincolor" href="about.html">Get Started</a>
+												</div>
+											</div>
+											<!-- eof .intro_layers -->
+										</div>
+										<!-- eof .intro_layers_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li class="ds text-center slide2">
+							<span class="flexslider-overlay"></span>
+							<img src="images/slide_02.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 itro_slider">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												<div class="intro_layer" data-animation="fadeIn">
+													<h3 class="text-lowercase intro_before_featured_word">
+														Let us produce your
+													</h3>
+												</div>
+												<div class="intro_layer" data-animation="fadeIn">
+													<h2 class="text-uppercase intro_featured_word">
+														Video Ads 
+													</h2>
+												</div>
+												<div class="intro_layer" data-animation="pullDown">
+													<p class="text-lowercase">For online video marketing</p>
+												</div>
+												<div class="intro_layer page-bottom" data-animation="expandUp">
+													<a class="btn btn-maincolor" href="about.html">Get Started</a>
+												</div>
+											</div>
+											<!-- eof .intro_layers -->
+										</div>
+										<!-- eof .intro_layers_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li class="ds text-center slide3">
+							<img src="images/slide_03.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-12 itro_slider">
+										<div class="intro_layers_wrapper">
+											<div class="intro_layers">
+												<div class="intro_layer" data-animation="fadeInRight">
+													<h2 class="text-uppercase intro_featured_word light">
+														Need an App?
+													</h2>
+												</div>
+												<div class="intro_layer" data-animation="fadeIn">
+													<h2 class="text-uppercase intro_featured_word bold">
+														That's what we do.
+													</h2>
+												</div>
+												<div class="intro_layer" data-animation="fadeIn">
+													<h2 class="text-uppercase intro_featured_word">
+														IOS and Android
+													</h2>
+												</div>
+
+												<div class="intro_layer page-bottom" data-animation="expandUp">
+													<a class="btn btn-maincolor" href="about.html">Get Started</a>
+													<a class="btn btn-outline-maincolor" href="#">our folio</a>
+												</div>
+											</div>
+											<!-- eof .intro_layers -->
+										</div>
+										<!-- eof .intro_layers_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+				<div class="flexslider-bottom d-none d-xl-block">
+					<a href="#about" class="mouse-button animated floating"></a>
+				</div>
+			</section>
+			<div class="divider-10 d-block d-sm-none"></div>
+			<section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
+				<div class="divider-5 d-none d-xl-block"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+							<div class="main-content text-center">
+								<div class="img-wrap text-center">
+									<img src="img/vertical_line.png" alt="">
+									<div class="divider-35"></div>
+								</div>
+								<h5>
+									Our 3 specialties: App Development, Wordpress sites and Video Ad Creation.
+								</h5>
+								<p>
+									In the realm of app development, we leverage cutting-edge technologies and user-centric design to craft intuitive, high-performance <strong>mobile apps</strong> that resonate with audiences across platforms. Our expertise extends to <strong>video ads</strong> (YouTube, Facebook, Reels, etc.), where we specialize in creating compelling videos that drive engagement, conversions, and brand visibility. Additionally, we are experts in <strong> WordPress</strong> site development, utilizing customizable themes and plugins to create dynamic, responsive websites that enhance online presence and user experience, ensuring seamless functionality and aesthetic appeal for businesses and individuals alike. 
+								</p>
+								<div class="divider-30"></div>
+								<div class="img-wrap text-center">
+									<img src="img/vertical_line.png" alt="">
+								</div>
+								<div>
+									<div class="divider-40"></div>
+									<button type="button" class="btn btn-outline-maincolor">Get Started</button>
+									<div class="divider-40"></div>
+								</div>
+								<div class="img-wrap text-center">
+									<img src="img/vertical_line.png" alt="">
+								</div>
+								<div class="divider-10 d-none d-xl-block"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="divider-10 d-block d-sm-none"></div>
+			</section>
+
+			<section class="s-pt-30 s-pb-3 service-item2 ls animate" id="services" data-animation="fadeInUp">
+				<div class="container">
+					<div class="row c-mb-50 c-mb-md-60">
+						<div class="d-none d-lg-block divider-20"></div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="vertical-item text-center">
+								<div class="item-media">
+									<img src="images/images-new/mobile-apps.png" alt="">
+								</div>
+								<div class="item-content">
+									<h6>
+										<a href="service-single1.html">Mobile Apps</a>
+									</h6>
+
+									<p>
+
+										We specialize in cross-platform mobile app development, crafting innovative solutions that seamlessly bridge the gap between iOS and Android platforms, ensuring optimal user experience and functionality through meticulous design and robust development methodologies. 
+
+								</div>
+							</div>
+						</div>
+						<!-- .col-* -->
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="vertical-item text-center">
+								<div class="item-media">
+									<img src="images/images-new/video-creation.png" alt="">
+								</div>
+								<div class="item-content">
+									<h6>
+										<a href="service-single1.html">Video Ad Production</a>
+									</h6>
+
+									<p>
+										Our expertise extends to video production and ads for online marketing, where we create captivating content tailored for various platforms including Facebook, YouTube, Reels, TikTok, and more, leveraging storytelling and data-driven strategies to maximize engagement and conversions.									</p>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="vertical-item text-center">
+								<div class="item-media">
+									<img src="images/images-new/wordpress.png" alt="">
+								</div>
+								<div class="item-content">
+									<h6>
+										<a href="service-single1.html">Wordpress Websites</a>
+									</h6>
+
+									<p>
+										Additionally, we excel in WordPress website development, utilizing customizable themes and plugins to create dynamic, responsive websites that enhance online presence and user experience, catering to the diverse needs of businesses and individuals in the digital landscape.									</p>
+								</div>
+							</div>
+						</div>
+						<!-- .col-* 
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="vertical-item text-center">
+								<div class="item-media">
+									<img src="images/service/service_icon_4-1.png" alt="">
+								</div>
+								<div class="item-content">
+									<h6>
+										<a href="service-single1.html">SEO Optimization</a>
+									</h6>
+
+									<p>
+										Optimizing our web designs to rank on the first page of google is our specialty.
+									</p>
+								</div>
+							</div>
+						</div>-->
+						<!-- .col-* 
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="vertical-item text-center">
+								<div class="item-media">
+									<img src="images/service/service_icon_5-1.png" alt="">
+								</div>
+								<div class="item-content">
+									<h6>
+										<a href="service-single1.html">Ecommerce</a>
+									</h6>
+
+									<p>
+										We build your online store using a flexible, modular platform that allows
+									</p>
+
+								</div>
+							</div>
+						</div>-->
+						<!-- .col-* 
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="vertical-item text-center">
+								<div class="item-media">
+									<img src="images/service/service_icon_6-1.png" alt="">
+								</div>
+								<div class="item-content">
+									<h6>
+										<a href="service-single1.html">Branding</a>
+									</h6>
+
+									<p>
+										A solid brand strategy, logo and guidelines help you to get You recognized.
+									</p>
+
+								</div>
+							</div>
+						</div>-->
+						<!-- .col-* -->
+					</div>
+					<div class="pink-line text-center">
+						<img src="img/pink_line_big.png" alt="">
+					</div>
+				</div>
+			</section>
+
+
+			<section class="s-pt-100 s-pt-lg-130 ds process-part skew_right s-parallax top_white_line_big overflow-visible" id="steps">
+				<div class="container">
+					<div class="divider-65"></div>
+
+					<!-- Empathize -->
+					<div class="row align-items-center c-mb-20 c-mb-lg-60">
+						<div class="col-12 col-lg-4">
+							<div class="step-left-part text-right">
+								<h2 class="step-title">
+									<span class="color-main">01</span>Empathize</h2>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4">
+							<div class="step-center-part text-center">
+								<img src="images/images-new/stages/empathize.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-12 col-lg-4">
+							<div class="step-right-part">
+								<p class="step-text">At VisDevelop, we prioritize understanding your users' needs and preferences, empathizing with their experiences to identify pain points, ensuring that our mobile apps, video productions, and Wordpress site designs resonate with your target audience.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Define -->
+					<div class="row align-items-center right c-mb-20 c-mb-lg-60">
+						<div class="col-12 col-lg-4  order-lg-3">
+							<div class="step-left-part">
+								<h2 class="step-title color1">
+									<span class="color-main2">02</span>Define</h2>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 order-lg-2">
+							<div class="step-center-part text-center">
+								<img src="images/images-new/stages/define.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 order-lg-1 text-right">
+							<div class="step-right-part ">
+								<p class="step-text">In the define phase, by deeply understanding users perspectives, we devise effective and unique design solutions that create substantial value, building upon user stories and journey maps to identify specific user problems and hypothesize solutions.</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Ideate -->
+					<div class="row align-items-center c-mb-20 c-mb-lg-60">
+						<div class="col-12 col-lg-4">
+							<div class="step-left-part text-right part3">
+								<h2 class="step-title">
+									<span class="color-main3">03</span>Ideate</h2>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4">
+							<div class="step-center-part text-center">
+								<img src="images/images-new/stages/aha.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-12 col-lg-4">
+							<div class="step-right-part">
+								<p class="step-text">In the ideate phase, we bring your concepts to life, whether it's crafting exceptional apps, creating compelling video ads for online marketing, or developing WordPress sites perfectly tailored to your business needs.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Prototype -->
+					<div class="row align-items-center right c-mb-20 c-mb-lg-60">
+						<div class="col-12 col-lg-4  order-lg-3">
+							<div class="step-left-part part4">
+								<h2 class="step-title color1">
+									<span class="color-main4">04</span>Prototype</h2>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 order-lg-2">
+							<div class="step-center-part text-center last">
+								<img src="images/images-new/stages/prototype.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 order-lg-1 text-right">
+							<div class="step-right-part ">
+								<p class="step-text">During the prototype phase, we generate a preliminary version of your app, video, or WordPress site. Your feedback as our client is paramount as we progress systematically, ensuring that the final product aligns precisely with your vision and requirements.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- test -->
+					<div class="row align-items-center c-mb-20 c-mb-lg-60">
+						<div class="col-12 col-lg-4">
+							<div class="step-left-part text-right">
+								<h2 class="step-title">
+									<span class="color-main">05</span>Test</h2>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4">
+							<div class="step-center-part text-center">
+								<img src="images/images-new/stages/test.jpg" alt="">
+							</div>
+						</div>
+						<div class="col-12 col-lg-4">
+							<div class="step-right-part">
+								<p class="step-text">In the test phase, prior to release, we meticulously evaluate your app, video ad, or WordPress website to ensure it functions flawlessly without any bugs while achieving the intended impact.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="divider-10 d-block d-sm-none"></div>
+					<div class="img-wrap text-center">
+						<img src="img/vertical_line2.png" alt="">
+					</div>
+					<div class=" white-button text-center">
+						<a class="btn white-btn" href="#">Get Started</a>
+					</div>
+					<div class="divider-30 d-none d-xl-block"></div>
+				</div>
+			</section>
+
+			<section class="page_title ls s-py-50 corner-title ls invise overflow-visible">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h1>Clients & Connections</h1>
+						
+								<p>Some of the companies we have worked with, worked for and/or had great connections with.</p>
+							</ol>
+							<div class="divider-15 d-none d-xl-block"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ls s-pt-5 s-pb-130" id="clients">
+				<div class="container">
+					<div class="row c-mt-30">
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/accenture.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/adams.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/axiom.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/deentv.jpg" alt="">
+						</div>
+
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/greatcourses.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/guidance.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/irusa.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/isna.jpg" alt="">
+						</div>
+
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/labcorp.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/mana.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/masdc.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/nasa.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/nativedeen.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/pennyappealusa.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/recycleprocesses.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/silatinstitute.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/upf.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/upsf.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/USPS.jpg" alt="">
+						</div>
+						<div class="col-6 col-md-3  animate" data-animation="fadeInUp">
+							<img src="images/images-new/clients/haystax.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- 	Gallery
+			<section class="s-pt-75 s-pt-xl-50 gallery-carousel main-gallery container-px-0" id="gallery">
+				<div class="container-fluid">
+					<div class="img-wrap text-center">
+						<img src="img/vertical_line.png" alt="">
+						<div class="divider-40 d-block d-sm-none"></div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row justify-content-center">
+								<div class="col-md-10 col-xl-5">
+									<div class="filters gallery-filters small-text text-lg-right">
+										<a href="#" data-filter="*" class="active selected">All</a>
+										<a href="#" data-filter=".design">Software Development</a>
+										<a href="#" data-filter=".advertisement">Video Ad Production</a>
+										<a href="#" data-filter=".web-design">Wordpress Sites</a>
+									</div>
+								</div>
+							</div>
+							<div class="owl-carousel gallery-owl-nav" data-autoplay="false" data-responsive-lg="5" data-responsive-md="3" data-responsive-sm="3" data-responsive-xs="2" data-nav="true" data-dots="false" data-filters=".gallery-filters" data-margin="0" data-loop="true">
+								<div class="vertical-item item-gallery content-absolute text-center ds web-design">
+									<div class="item-media">
+										<img src="images/gallery/gallery-1.jpg" alt="">
+										<div class="media-links">
+
+										</div>
+									</div>
+									<div class="item-content">
+										<h6>
+											<a class="small-text" href="gallery-regular.html">web-design</a>
+										</h6>
+										<h6>
+											<a href="gallery-regular.html">Clothes Badge Design</a>
+										</h6>
+									</div>
+								</div>
+								<div class="vertical-item item-gallery content-absolute text-center ds logo-design">
+									<div class="item-media">
+										<img src="images/gallery/gallery-2.jpg" alt="">
+										<div class="media-links">
+
+										</div>
+									</div>
+									<div class="item-content">
+										<h6>
+											<a class="small-text" href="gallery-regular.html">logo-design</a>
+										</h6>
+										<h6>
+											<a href="gallery-regular.html">Clothes Badge Design</a>
+										</h6>
+									</div>
+								</div>
+								<div class="vertical-item item-gallery content-absolute text-center ds advertisement">
+									<div class="item-media">
+										<img src="images/gallery/gallery-3.jpg" alt="">
+										<div class="media-links">
+
+										</div>
+									</div>
+									<div class="item-content">
+										<h6>
+											<a class="small-text" href="gallery-regular.html">advertisement</a>
+										</h6>
+										<h6>
+											<a href="gallery-regular.html">Clothes Badge Design</a>
+										</h6>
+									</div>
+								</div>
+								<div class="vertical-item item-gallery content-absolute text-center ds branding">
+									<div class="item-media">
+										<img src="images/gallery/gallery-4.jpg" alt="">
+										<div class="media-links">
+
+										</div>
+									</div>
+									<div class="item-content">
+										<h6>
+											<a class="small-text" href="gallery-regular.html">branding</a>
+										</h6>
+										<h6>
+											<a href="gallery-regular.html">Clothes Badge Design</a>
+										</h6>
+									</div>
+								</div>
+								<div class="vertical-item item-gallery content-absolute text-center ds design">
+									<div class="item-media">
+										<img src="images/gallery/gallery-5.jpg" alt="">
+										<div class="media-links">
+
+										</div>
+									</div>
+									<div class="item-content">
+										<h6>
+											<a class="small-text" href="gallery-regular.html">design</a>
+										</h6>
+										<h6>
+											<a href="gallery-regular.html">Clothes Badge Design</a>
+										</h6>
+									</div>
+								</div>
+								<div class="vertical-item item-gallery content-absolute text-center ds photo">
+									<div class="item-media">
+										<img src="images/gallery/gallery-6.jpg" alt="">
+										<div class="media-links">
+
+										</div>
+									</div>
+									<div class="item-content">
+										<h6>
+											<a class="small-text" href="gallery-regular.html">photo</a>
+										</h6>
+										<h6>
+											<a href="gallery-regular.html">Clothes Badge Design</a>
+										</h6>
+									</div>
+								</div>
+							</div>
+							< !-- .owl-carousel-- >
+						</div>
+					</div>
+				</div>
+			</section>
+		-->
+
+			<section class="page_slider team_slider" id="team">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="shortcode-team-slider main-team">
+							<h3 class="slider-title">Team</h3>
+							<div class="flexslider team-slider" data-nav="false" data-dots="true">
+								<ul class="slides">
+									<li class="ls">
+										<img src="images/images-new/malik-ahmad.jpg" alt="">
+									</li>
+									<li class="ls">
+										<img src="images/images-new/rahima-ullah.jpg" alt="">
+									</li>
+									<li class="ls">
+										<img src="images/images-new/tariq-shafiq.jpg" alt="">
+									</li>
+									<li class="ls">
+										<img src="images/images-new/ashraf-shafiq.jpg" alt="">
+									</li>
+								</ul>
+							</div>
+							<!-- eof flexslider -->
+							<div class="flexslider-controls">
+								<ul class="flex-control-nav-1">
+									<li class="menu_item flex-active">
+										A. Malik Ahmad
+										<span class="position">CEO</span>
+										<span class="team-social-icons">
+											<span class="social-icons">
+												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+											</span>
+										</span>
+									</li>
+									<li class="menu_item">
+										Rahima Ullah
+										<span class="position">Content Developer</span>
+										<span class="team-social-icons">
+											<span class="social-icons">
+												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+											</span>
+										</span>
+									</li>
+									<li class="menu_item">
+										Tariq Shafiq
+										<span class="position">Tech Lead</span>
+										<span class="team-social-icons">
+											<span class="social-icons">
+												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+											</span>
+										</span>
+									</li>
+									<li class="menu_item">
+										Ashraf Ullah
+										<span class="position">Lead Developer</span>
+										<span class="team-social-icons">
+											<span class="social-icons">
+												<a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+												<a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+												<a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+											</span>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ls ms book-item s-pb-30 s-pb-lg-25">
+				<div class="corner corner-light"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 offset-md-2">
+							<div class="text-block text-center">
+								<div class="btn-book-section overflow-visible">
+									<a href="#" class="btn btn-maincolor">Get Started</a>
+								</div>
+								<div class="img-wrap text-center">
+									<img src="img/vertical_line.png" alt="">
+									<div class="divider-35"></div>
+								</div>
+								<h5>
+									We are good at what we do.
+								</h5>
+								<p>We pride ourselves on not being a one-stop shop that spreads itself thin; instead, we specialize in three key areas where we excel, ensuring exceptional quality and expertise in each of these domains.</p>
+								<div class="divider-30"></div>
+								<div class="img-wrap text-center">
+									<img src="img/vertical_line.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="divider-40"></div>
+						<div class="row c-gutter-30 c-mb-30 c-mb-lg-0 text-center book">
+							<div class="col-12 col-lg-4">
+								<div class="stage book-1 ls">
+									<img src="images/images-new/goodat/mobiledev.jpg" alt="#">
+									<div class="info">
+										<header>
+											<h6>
+												<a href="#">Mobile Dev Department
+											</h6>
+										</header>
+										<p>
+											The mobile development department has demonstrated remarkable growth, consistently delivering innovative and user-friendly applications. 
+										</p>
+						
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-lg-4">
+								<div class="stage book-2 ds">
+									<img src="images/images-new/goodat/videodev.jpg" alt="#">
+									<div class="info">
+										<header>
+											<h6>
+												<a href="#">Video Production Department</a>
+											</h6>
+										</header>
+										<p>
+											Check out our Video Production Department, specializing in crafting captivating visual content tailored for social media platforms.
+										</p>
+						
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-lg-4">
+								<div class="stage book-3 ls">
+									<img src="images/images-new/goodat/wordpress.jpg" alt="#">
+									<div class="info">
+										<header>
+											<h6>
+												<a href="#">Wordpress site Department</a>
+											</h6>
+										</header>
+										<p>
+											Explore our WordPress website development services, where we leverage the platform's flexibility and scalability to create stunning and functional websites tailored to your needs. 
+										</p>
+								
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="divider-30"></div>
+						<div class="text-center img-wrap col-md-12">
+							<div>
+								<img src="img/vertical_line.png" alt="">
+							</div>
+							<div class="divider-40"></div>
+							<a href="#" class="btn btn-outline-maincolor">Get Started</a>
+							<div class="divider-40"></div>
+							<div>
+								<img src="img/vertical_line.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="divider-10"></div>
+				</div>
+			</section>
+
+		
+
+			<section class="s-pt-130 s-pb-15 s-pb-md-50 s-pt-xl-100 s-pb-lg-30 overflow-visible s-parallax testimonials-sliders main-testimonials ds" id="testimonials">
+				<div class="corner ls ms"></div>
+				<div class="container">
+					<div class="row c-mt-30 c-mt-md-0">
+						<div class="divider-20"></div>
+						<div class="text-center img-wrap line col-md-12">
+							<img src="img/vertical_line2.png" alt="">
+						</div>
+						<div class="divider-40 d-none d-md-block"></div>
+						<div class="col-md-12">
+							<div class="owl-carousel" data-autoplay="false" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-nav="false" data-dots="true" id="quote">
+								<div class="quote-item">
+									<div class="quote-image">
+										<img src="images/images-new/happy-customers.jpg" alt="">
+									</div>
+									<h5>
+										<a href="#">Hundreds of successful projects</a>
+									</h5>
+									<p>
+										<em class="big">
+											With a track record of hundreds of successful projects, we've catered to a diverse clientele including large corporations, non-profit organizations, and small businesses. Our success stems from a focused approach, specializing in select areas where we excel, ensuring top-notch quality and client satisfaction every time.
+										</em>
+									</p>
+								</div>
+							</div>
+							<!-- .testimonials-slider -->
+						</div>
+						<div class="divider-55 d-none d-md-block"></div>
+						<div class="text-center img-wrap col-md-12">
+							<img src="img/vertical_line2.png" alt="">
+						</div>
+						<div class="divider-10 d-none d-md-block"></div>
+					</div>
+				</div>
+				<div class="testimonials-btn text-center">
+					<a href="#quote" class="btn-maincolor">
+						<i class="fa fa-angle-up"></i>
+					</a>
+				</div>
+				<div class="corner corner-light"></div>
+			</section>
+
+			<section class="s-pt-130 s-pt-md-50 ls text-section">
+				<div class="divider-30"></div>
+				<div class="container">
+					<div class="row">
+						<div class="text-center col-md-12 justify-content-center text-block">
+							<img src="img/vertical_line.png" alt="">
+							<div class="divider-35"></div>
+							<div class="content">
+								<h1>
+									Lets Get Started
+									<br> Your Project
+								</h1>
+								<p>
+									We’ll help to achieve your goals and to grow business
+								</p>
+								<div class="divider-30"></div>
+							</div>
+							<img src="img/vertical_line.png" alt="">
+							<div>
+								<div class="divider-40"></div>
+								<a href="#" class="btn btn-outline-maincolor">Let’s Talk!</a>
+								<div class="divider-30"></div>
+							</div>
+							<div class="img-wrap overflow-visible">
+								<img src="img/vertical_line.png" alt="">
+								<div class="divider-5 d-none d-xl-block"></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="s-pt-50 s-pb-100 s-pt-lg-30 s-pb-lg-75 ls ms teaser-contact-icon main-icon s-parallax" id="contact">
+				<div class="corner corner-inverse"></div>
+
+				<div class="container">
+					<div class="divider-10 d-none d-xl-block"></div>
+					<div class="row c-mb-50 c-mb-lg-0">
+						<div class="col-lg-4 text-center">
+							<div class="border-icon">
+								<div class="teaser-icon">
+									<img src="images/icon1.png" alt="">
+								</div>
+							</div>
+							<h6>
+								Call Us
+							</h6>
+							<p>
+								<strong>1-800-123-4569</strong> 
+							</p>
+						</div>
+						<div class="col-lg-4 text-center">
+							<div class="border-icon">
+								<div class="teaser-icon">
+									<img src="images/icon3.png" alt="">
+								</div>
+							</div>
+							<h6>
+								Write Us
+							</h6>
+							<p>
+								info@visdevelop.com
+							</p>
+						</div>
+						<div class="col-lg-4 text-center">
+							<div class="border-icon">
+								<div class="teaser-icon">
+									<img src="images/icon2.png" alt="">
+								</div>
+							</div>
+							<h6>
+								Visit Us
+							</h6>
+							<p>
+								512 Herndon Parkway
+								<br> Herndon, Virginia 20170
+							</p>
+						</div>
+					</div>
+					<div class="divider-30 d-none d-lg-block"></div>
+					<div class="text-center img-wrap col-md-12 layout-2">
+						<img src="img/dark_line_short.png" alt="">
+					</div>
+				</div>
+				<div class="divider-10"></div>
+			</section>
+
+
+			<footer class="page_footer corner-footer ds s-pt-30 s-pb-0 s-pb-lg-10 s-pb-xl-50 c-gutter-60 s-parallax">
+
+				<div class="container">
+					<div class="container">
+						<div class="row">
+							<div class="divider-20 d-none d-xl-block"></div>
+							<div class="col-md-12 mt-4 text-center animate" data-animation="fadeInUp">
+								<img class="margin-negative" style="max-width: 500px; margin-top:0px" src="images/images-new/VisDevelopNew.svg" alt="">
+								<div class="widget widget_social_buttons">
+									<a href="http://www.facebook.com/#" class="fa fa-facebook color-icon" title="facebook"></a>
+									<a href="http://www.twitter.com/#" class="fa fa-twitter color-icon" title="twitter"></a>
+									<a href="http://www.plus.google.com/#" class="fa fa-google color-icon" title="google"></a>
+									<a href="http://www.youtube.com/#" class="fa fa-youtube-play color-icon" title="youtube-play"></a>
+									<a href="http://www.linkedin.com/#" class="fa fa-linkedin color-icon" title="linkedin"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<section class="page_copyright light-copy cs s-py-20 s-py-lg-5 s-parallax copyright">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="divider-20 d-none d-lg-block"></div>
+						<div class="col-md-12 text-center">
+							<p>&copy; Copyright
+								<span class="copyright_year">2024</span> All Rights Reserved</p>
+						</div>
+						<div class="divider-20 d-none d-lg-block"></div>
+					</div>
+				</div>
+			</section>
+
+
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
